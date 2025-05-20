@@ -45,6 +45,11 @@ class PostController extends Controller
         // Mengembalikan response JSON dengan data postingan yang baru dibuat
         return response()->json($post, 201);
     }
+
+    //store belum bisa mengirimkan data ke database
+
+
+
     public function update(Request $request, $id)
     {
         // Mengambil postingan berdasarkan ID
